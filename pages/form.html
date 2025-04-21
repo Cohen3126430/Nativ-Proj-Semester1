@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/form.css">
+    <title>נתיב - סינון אתרים / אינטרנט כשר</title></head>
+</head>
+<body>
+    <main>
+        <div id="title">
+            <img src="../assets/iconconnect.png" alt="אייקון צור קשר">
+            <h1>צרו קשר</h1>
+            <h2>השאירו פרטים ונשמח לסייע לכם בהקדם</h2>
+        </div>
+        <div id="conaction">
+            <form action="./send.html" method="get">
+                <div id="details">
+                    <label for="firstName">שם פרטי</label><br />
+                    <input type="text" name="firstName" id="firstName" required><br /><br />
+                    <label for="lastName">שם משפחה</label><br />
+                    <input type="text" name="lastName" id="lastName" required><br /><br />
+                    <label for="id">מספר ת.ז.</label><br />
+                    <input type="number" name="id" id="id" required maxlength="9" minlength="9"><br /><br />
+                    <label for="tel">מספר טלפון</label><br />
+                    <input type="tel" name="tel" id="tel" required maxlength="10" minlength="9"> <br /><br />
+                </div>
+                <div id="continue">
+                    <label for="email">מייל</label><br />
+                    <input type="email" name="email" id="email" placeholder="הזיני כתובת מייל"><br /><br />
+                    <label for="password">סיסמא</label><br />
+                    <input type="password" name="password" id="password" required><br /><br />
+                    <label for="address">כתובת</label><br />
+                    <input type="text" name="address" id="address" required><br /><br />
+                    <label for="city">עיר</label><br />
+                    <select name="city" id="city">
+                        <option>בחר עיר</option>
+                        <option value="modiin ilit">מודיעין עילית</option>
+                        <option value="jerusalem">ירושלים</option>
+                        <option value="BNEI-BRAK">בני-ברק</option>
+                        <option value="beit-shemesh">בית שמש</option>
+                        <option value="beitar">ביתר</option>
+                        <option value="elad">אלעד</option>
+                    </select>
+                </div>
+                <fieldset id="cusses">
+                    <legend>סיבת הפניה</legend>
+                    <label for="sales">מחלקת מכירות</label>
+                    <input type="checkbox" name="cus[]" value="1" id="sales"><br />
+                    <label for="tmicha">מחלקת תמיכת אתרים</label>
+                    <input type="checkbox" name="cus[]" value="2" id="tmicha "><br />
+                    <label for="problem">דווח על תוכן בעייתי</label>
+                    <input type="checkbox" name="cus[]" value="3" id="problem"><br />
+                    <label for="pays">מחלקת גביה</label>
+                    <input type="checkbox" name="cus[]" value="4" id="pays"><br />
+                    <label for="techni">מחלקת תמיכה טכנית</label>
+                    <input type="checkbox" name="cus[]" value="5" id="techni"><br />
+                    <label for="firtza">דווח על פירצה חמורה</label>
+                    <input type="checkbox" name="cus[]" value="6" id="firtza"><br />
+                </fieldset>
+                <textarea name="massage" id="massage" placeholder="ניתן לכתוב כאן הערות/הארות/בקשות"></textarea><br /><br />
+                <input type="checkbox" name="true" id="true" required>
+                <label for="true">אני מצהיר שכל הנכתב לעיל אמת!</label> <br />
+                <input type="checkbox" name="advertising" id="advertising">
+                <label for="advertising">סמן תיבה זו אם ברצונך שלא לקבל חומר פרסומי, לרבות דוא"ל </label> <br /><br />
+                <button type="submit">שליחה</button>
+                <button type="reset">ניקוי</button>
+                <!-- <a href="./send.html">לגביה ומכירות-המשך כאן!</a> -->
+        </div>
+        </form>
+    </main>
+
+</body>
+</html>

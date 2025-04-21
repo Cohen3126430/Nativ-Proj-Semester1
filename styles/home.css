@@ -1,0 +1,492 @@
+#start{
+    width: 100%;
+    height: 92vh;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 200;
+    color: #fff;
+    animation: openImg 15s infinite;
+}
+#start h3{
+    font-size: 56px;
+    font-weight: 800;
+    margin:0% 10% 0% 0%;
+    line-height: 1;
+    display: inline;
+}
+#start h3:nth-of-type(1){
+    animation: openTextColor 15s  infinite;
+    padding-top: 8%;
+}
+#start h4{
+    font-size: 30px;
+    margin:3% 10% 1% 0%;
+    line-height: 1;
+}
+.openText1{ 
+    animation: openText1 15s infinite;
+}
+.openText2{
+    animation: openText2 15s  infinite;
+}
+.openText3{
+    animation: openText3 15s infinite;
+} 
+.redLink:nth-child(1),.redLink:nth-child(3){
+    background-color: #504443 !important;
+}
+.redLink:nth-child(2){
+    font-size: 22px;
+    padding: 0px 50px;
+}
+.redLink:nth-child(3){
+    font-size: 15px;
+    padding: 0px 70px;
+}
+.redLink:first-child{
+    font-size: 22px;
+    padding: 0px 60px;
+}
+#buttons .redLink{
+    height: 50px;
+    border: none;
+    margin-right: 70%;
+    width: 320px;
+    margin-bottom: 5px;
+}
+#buttons{
+    position: absolute;
+    top: 20%;
+}
+#btnJoin a{
+    padding: 0 50px!important;
+    font-weight: 400;
+    animation: glowing 15s infinite;
+    height: 47px;
+    font-size: 30px;
+    margin-top: 1%;
+    border: none;
+    font-family: Heebo;
+    border-radius: 50px;
+}
+#btnJoin{
+    margin:0% 10% 120px 0%;
+    padding: 0;
+    border: none;
+    height: 0px;
+}
+#kasher{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 1%;
+    height: 200px;
+}
+#kasher img{
+    display: inline;
+    width: 150px;
+}
+#kasher h1{
+    color: #fff;
+    white-space: pre-wrap;
+}
+#appTitle{
+    font-family: Heebo;
+    text-align: center;
+    padding: 7% 4% 4%;
+    color: #cd2033;
+}
+.aplication{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #eaf0f4;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.aplication img{
+    width: 33%;
+}
+#safe {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    flex-direction: column;
+}
+
+#safe h3 {
+    padding-top: 65px;
+    font-size: 45px;
+    font-family: Heebo extraBold;
+    color: rgba(25, 24, 24, .788235294117647);
+}
+
+#safeImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 1%;
+    align-items: center;
+    white-space: pre-wrap;
+    animation: animate 3s 1s infinite;
+}
+
+#option {
+    color: rgba(25, 24, 24, .788235294117647);
+    background-image: url(../assets/nativs-bg.c940f73675cf2834ac7e.png);
+    background-size: cover;
+    height: 800px;
+    /* height: auto; */
+    padding-bottom: 20% !important;
+    padding: 3%;
+    text-align: center;
+}
+
+#option h1 {
+    font-size: 37px;
+    margin-top: 15%;
+}
+
+#option h4 {
+    font-size: 26px;
+    margin-top: 0;
+}
+
+#optionimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 20px;
+    align-items: center;
+    animation: animate 3s 1s infinite;
+    padding-bottom: 70px;
+}
+#safeImg img:nth-of-type(3){
+    margin-left: 4% !important;
+}
+#optionimg img:nth-of-type(3){
+    margin-left: 11% !important;
+}
+#hForm {
+    background-image: url(../assets/רקע\ בית.jpg);
+    font-size: 40px;
+    background-size: 100% 100%;
+    color: #fff;
+    height: auto;
+    padding-top: 2%;
+    background-position: 50% 0;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    text-align: center;
+}
+
+#hForm h2 {
+    font-size: 26px;
+    font-family: Heebo Medium;
+    line-height: 20px;
+    margin-top: 1%;
+    font-weight: 500;
+}
+
+#hForm h2,
+h3 {
+    margin-bottom: 0.5rem;
+
+}
+
+#hForm h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 0%;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#form-group a {
+    color: #fff;
+    /* width: 84%; */
+    font-size: 22px;
+
+}
+
+#form-group {
+    margin-left: auto !important;
+    position: relative;
+    width: 100%;
+    padding-right: 43%;
+    /* padding-left: 150px; */
+    text-align: right;
+}
+
+#form-group img {
+    height: 39px;
+    text-align: right !important;
+}
+
+label {
+    font-size: 19px;
+    /* margin-right: 15%; */
+    margin-top: 2%;
+    /* display: inline-block; */
+    /* margin-bottom: 0.5rem; */
+}
+
+input {
+    font-size: 15px;
+    border-radius: inherit;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    color: #fff;
+    width: 30%;
+    display: block;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 2px 3px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* background-clip: padding-box; */
+    /* border: 1px solid #ced4da; */
+    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+    /* margin-right: 48%; */
+}
+
+/* @media (min-width: 768px) {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+} */
+@keyframes animate {
+    from {
+        transform: translateY(20%);
+        opacity: 0.1;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 750px) and (min-width: 200px) {
+    .aplication{
+        flex-wrap: wrap;
+    }
+    .aplication img{
+        width: 100%;
+    }
+    #kasher{
+        animation:kasherColor 15s infinite;
+    }
+    #btnJoin a{
+        padding: 0 50px!important;
+        font-weight: 400;
+        animation: glowing 15s infinite;
+        height: 47px;
+        font-size: 30px;
+        margin-top: 1%;
+        border: none;
+        font-family: Heebo;
+        border-radius: 50px;
+    }
+    #start{
+        animation: openImgResponsivy 15s infinite !important;
+    }
+    #start h4{
+        margin:3% 10% 11% 0% !important;
+    }
+}
+
+@keyframes openImg{
+    0%{
+        background-image: url(../assets/10.jpg);
+    }
+    33%{
+        background-image: url(../assets/8.jpg);
+    }
+    66%{
+        background-image: url(../assets/9.jpg);
+    }
+    100%{
+        background-image: url(../assets/10.jpg);
+    }
+}
+@keyframes openImgResponsivy{
+    0%{
+        background-image: url(../assets/10respon.jpg);
+    }
+    33%{
+        background-image: url(../assets/8respon.jpg);
+    }
+    66%{
+        background-image: url(../assets/9respon.jpg);
+    }
+    100%{
+        background-image: url(../assets/10respon.jpg);
+    }
+}
+@keyframes openText1{
+    0%{
+        /* display: inline; */
+         /* visibility: hidden; */
+        opacity: 1;
+    }
+    33%{
+        /* display: none; */
+        /* visibility: visible; */
+        opacity: 1;
+    }
+    66%{
+        /* display: none; */
+        opacity: 1;
+
+    }
+    100%{
+        /* display: none; */
+        opacity: 1;
+
+    }
+}
+@keyframes openText2{
+    0%{
+        display: none;
+    }
+    33%{
+        display: none;
+    }
+    66%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes openText3{
+    0%{
+        display: none;
+    }
+    33%{
+        display: none;
+    }
+    66%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes openTextColor{
+    0%{
+        color: #199cbf;
+    }
+    33%{
+        color: #f29e25;
+    }
+    66%{
+        color: #4cb95b;
+    }
+    100%{
+        color: #199cbf;
+    }
+}
+@keyframes glowing{
+    0%{
+            background-color:#ffff ;
+            color: #199cbf;
+    }
+    6%{
+        background-color:#199cbf ;
+        color:#ffff ;
+    }
+    12%{
+        background-color:#ffff ;
+        color: #199cbf;
+    }
+    18%{
+       background-color:#ffff ;
+       color: #f29e25;
+    }
+    27%{
+        background-color:#f29e25 ;
+        color:#ffff ;
+    }
+    36%{
+        background-color:#ffff ;
+        color: #f29e25;
+    }
+    45%{
+        background-color:#f29e25 ;
+        color:#ffff ;
+    }
+    50%{
+            background-color:#ffff ;
+            color: #4cb95b;
+    }
+    60%{
+        background-color:#4cb95b ;
+        color:#ffff ;
+    }
+    67%{
+        background-color:#ffff ;
+        color: #4cb95b;
+    }
+    73%{
+        background-color:#4cb95b ;
+        color:#ffff ;
+    }
+    80%{
+        background-color:#ffff ;
+        color: #199cbf;
+    }
+    86%{ 
+        background-color:#199cbf ;
+        color:#ffff ;
+    }
+    93%{
+       background-color:#ffff ;
+       color: #199cbf;
+    }
+    100%{  
+        background-color:#199cbf ;
+        color:#ffff ;
+    }
+}
+@keyframes kasherColor{
+    0%{
+        background-color: #216896;
+    }
+    33%{
+        background-color: #f29e25 ;
+
+    }
+    66%{
+        background-color: #4cb95b ;
+    }
+    99%{
+        background-color: #216896;
+    }
+}
+/* @keyframes animate {
+    from {
+        transform: translateY(20%);
+        opacity: 0.1;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}    animation: animate 3s 1s infinite; */
+
+
+

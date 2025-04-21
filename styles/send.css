@@ -1,0 +1,18 @@
+#send{
+    background-image: url(../assets/רקע\ טופס.jpg);
+    height: 720px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 17%;
+    color: #cd2033;
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+    margin: 0;
+}

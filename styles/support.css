@@ -1,0 +1,73 @@
+section>h1 {
+    background-image: url(https://www.enativ.com/support-icon-respons.94c246126beb4b13eaeb.jpg);
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    font-size: 500%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+a li{
+    color: black;
+    margin: 14px;
+}
+
+section a {
+    color: black;
+    text-decoration: none;
+}
+
+.red {
+    width: 15%;
+}
+
+.left img {
+    width: 25%;
+}
+
+#control,
+#tutorials,
+#downloeds-nativ,
+#downloeds,
+#phorum,
+#email,
+#techni {
+    display: flex;
+    align-items: center;
+}
+
+.right p {
+    font-size: 200%;
+    color: rgb(174, 24, 24);
+}
+
+.right {
+    padding-right: 15%;
+    width: 20%;
+}
+
+.left {
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
+#tutorials,
+#downloeds,
+#email {
+    background-color: #eaf0f4;
+}
+
+.left img {
+    display: block;
+}
+#control ul,
+#tutorials ul,
+#downloeds-nativ ul,
+#downloeds ul,
+#phorum ul,
+#email ul,
+#techni ul{
+    width: 400px;
+}

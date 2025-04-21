@@ -1,0 +1,307 @@
+main{
+    direction: rtl;
+    color: #9c1313;
+    text-align:center ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-image: url(../assets/רקע\ טופס.jpg) ;
+    padding: 0.5%;
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* width: 100%; */
+    /* height: 600px; */
+    /* height: 97vh; */
+    /* background-size: 100% 100%; */
+ }
+ 
+ *{
+     text-align: center;
+ }
+ #conaction{
+     text-align: center;
+ }
+ #cusses{
+    direction: ltr;
+    text-align: right;
+    width: 100%;
+    margin: 2%;
+ }
+ #massage{
+     resize: none;
+     height: 80%;
+     width: 40%;
+     font-size: 100%;
+     background-color: #f0e9e9;
+ }
+ #continue{
+     float: left;
+ }
+ #details{
+     display: inline-block;
+ }
+ input:invalid{
+     border-color: rgb(225, 91, 91);
+ }
+ 
+ input:valid{
+     border-color: rgb(98, 167, 98);
+ }
+ 
+ input{
+ font-size: 100%;
+ color: #9c1313 ;
+ background-color:#ffffff;
+ }
+ 
+ button:not(:disabled):hover{
+     box-shadow: 0 0 3px #585757;
+ }
+ 
+ label{
+    color:#212529; 
+    font-size: larger;
+   
+ }
+ #title img{
+     width: 4%;
+     padding: 1%;
+     margin: 0;
+     display: inline;
+ }
+ #title h2{
+     color:#9c1313;
+     font-size: 150%; 
+     margin: 0;
+ }
+ #title h1{
+     font-size: 300%;
+     color: white;
+     margin: 0;
+     display: inline;
+ 
+ }
+ #title{ 
+     text-align: center;
+     border: solid 2px #9c1313;
+     position: relative;
+     /* display: flex; */
+     border-radius: .5rem;
+     outline: 0;
+     /* align-items: center;
+     justify-content: center;
+     justify-content: space-evenly; */
+     width: 50%;
+     height: 10%;
+ }
+ legend{
+     font-size: 150%;  
+     text-align: center; 
+ }
+ 
+ #conaction{
+     display: inline-block;
+     width: 45%;
+ } 
+ 
+ #pay{
+     width: 50%;
+     float: left;
+ }
+ 
+ #city{
+     width: 100%;
+     font-size: larger;
+     color: #9c1313;
+ }
+ 
+ #date2{
+ padding-right: 10%;
+ }
+ 
+ button{
+     font-size: 150%;
+     width: 100px;
+     text-align: center;
+     border-color:salmon;
+     background-color: rgb(108, 160, 184);
+ }
+ main a:hover{
+ background-color: #f0e9e9;
+ border: solid 1px #9c1313;
+ 
+ }
+ main a{
+     color: #fff;
+     background-color: #cd2033;
+     height: 29px;
+     padding: 2px 20px;
+     border-radius: 50px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Heebo Medium, 'Trebuchet MS', sans-serif;
+ }
+ @media (max-width: 750px) and (min-width: 200px) {
+     #title{ 
+       background-color: #1918189c;
+     }
+     main{
+        background-image: url(../assets/רקע\ טופס2.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 10%   ;
+    }
+ }
+
+
+
+
+/* main{
+    direction: rtl;
+    color: #9c1313;
+    text-align:center ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-image: url(../assets/רקע\ טופס.jpg) ; */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* width: 100%;
+    height: 97vh;
+    background-size: 100% 100%;
+
+ }
+ *
+ {
+     text-align: center;
+  }
+ #conaction{
+     text-align: center;
+ }
+ #cusses{
+    direction: ltr;
+    text-align: right;
+    width: 240px;
+ }
+ #massage{
+     resize: none;
+     height: 80%;
+     width: 40%;
+     font-size: 100%;
+     background-color: #f0e9e9;
+ }
+ #continue{
+     float: left;
+ }
+ #details{
+     display: inline-block;
+ }
+ input:invalid{
+     border-color: rgb(225, 91, 91);
+ }
+ 
+ input:valid{
+     border-color: rgb(98, 167, 98);
+ }
+ 
+ input{
+ font-size: 100%;
+ color: #9c1313 ;
+ background-color:#ffffff;
+ }
+ 
+ button:not(:disabled):hover{
+     box-shadow: 0 0 3px #585757;
+ }
+ 
+ label{
+    color:#212529; 
+    font-size: larger;
+   
+ }
+ #title img{
+     width: 4%;
+     padding: 1%;
+     margin: 0;
+     display: inline;
+ }
+ #title h2{
+     color:#9c1313;
+     font-size: 150%; 
+     margin: 0;
+ }
+ #title h1{
+     font-size: 300%;
+     color: white;
+     margin: 0;
+     display: inline;
+ 
+ }
+ #title{ 
+     text-align: center;
+     border: solid 2px #9c1313;
+     position: relative; */
+     /* display: flex; */
+     /* border-radius: .5rem;
+     outline: 0; */
+     /* align-items: center;
+     justify-content: center;
+     justify-content: space-evenly; */
+     /* width: 50%;
+     height: 10%;
+ }
+ legend{
+     font-size: 150%;  
+     text-align: center; 
+ }
+ 
+ #conaction{
+     display: inline-block;
+     width: 45%;
+ } 
+ 
+ #pay{
+     width: 50%;
+     float: left;
+ }
+ 
+ #city{
+     width: 100%;
+     font-size: larger;
+     color: #9c1313;
+ }
+ 
+ #date2{
+ padding-right: 10%;
+ }
+ 
+ button{
+     font-size: 150%;
+     width: 10%;
+     text-align: center;
+     border-color:salmon;
+     background-color: rgb(108, 160, 184);
+     
+ }
+ main a:hover{
+ background-color: #f0e9e9;
+ border: solid 1px #9c1313;
+ 
+ }
+ main a{
+     color: #fff;
+     background-color: #cd2033;
+     background-position: 50%;
+     height: 29px;
+     padding: 2px 20px;
+     border-radius: 50px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Heebo Medium, 'Trebuchet MS', sans-serif;
+ }
+ @media (max-width: 750px) and (min-width: 200px) {
+     #title{ 
+       background-color: #1918189c;
+     }
+ } */
+ 

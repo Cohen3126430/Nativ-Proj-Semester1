@@ -1,0 +1,68 @@
+footer,#toTopBtn{
+    font-family: Heebo;
+    text-align: center!important;
+}
+#buttom,#toTopBtn{
+    background-color:rgba(25,24,24,.788235294117647) ;
+    color: #fff;
+    padding: 25.375px 0px 0px;
+}
+#upButtom{
+    color:#216896;
+    padding: 2%;
+    font-size: 30px;
+}
+#upButtom p{
+    margin: 0;
+}
+#upButtom span{
+    font-weight: bold;
+}
+h1,h2,h3{
+    margin: 0;
+    font-weight: normal;
+}
+#buttom h3{
+    font-size: 60px;
+    font-weight: bold;
+}
+footer nav,#toTopBtn img{
+    width: 80%;
+    margin:3% 10% 0% 0%;
+    padding-bottom: 2%;
+}
+footer nav a,#toTopBtn img{
+    color: white !important;
+}
+#toTopBtn{
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    padding: 3px;
+    background-color: unset;
+    position: sticky;
+    top: 90%;
+    right: 35px;
+    z-index: 99;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+#toTopBtn img{
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    padding: 3px;
+    background-color: #cd2033;
+    position: sticky;
+    top: 90%;
+    right: 35px;
+    z-index: 99;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}

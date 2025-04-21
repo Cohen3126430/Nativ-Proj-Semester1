@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+html{
+    background-color: #edeced;
+}
+#aside{
+    background-image: url(../assets/צור\ קשר.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    display: inline-block;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    color: white;
+    max-width: 25%;
+    position: absolute;
+}
+#aside img{
+    width: 10%;
+    padding: 1%;
+    padding-left:100px ;
+    border-bottom: azure 3px solid;
+    margin-right: 12%;
+    margin-top: 23%;
+}
+#aside h2{
+    white-space: pre-wrap;
+    font-family: heebo light;
+}
+#aside h1{
+    margin-bottom: .5rem;
+}
+#aside h1, h2{
+    margin: 0 0 10px;
+    font-size: 30px;  
+    margin-right: 12%;
+    max-width: 90%;
+}
+
+#title{
+    font-family: Heebo;
+    color: rgba(25,24,24,.788235294117647);
+    padding: 2% 40% 3% 0%;
+    /* padding-bottom: 5%;
+    padding-right: 30%; */
+}
+#title h1,#aside h1{
+    font-weight: 600;
+}
+#border{
+    border: 2px solid rgba(25,24,24,.788235294117647);
+    padding: 3.5%;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    /* width: 44%; */
+    height: 65%;
+    margin: 0% 33% 2% 16%;
+    float: left;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+#container{
+    padding: 0 20%;
+    padding-inline: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#container a{
+    display: inline;
+    height: 200px;
+    width: 200px;
+    margin: 2% 0%;
+    background-size: cover;
+    cursor: pointer;
+    background-position: 50%;
+}
+#container a:first-child{
+    background-image: url(../assets/11.png);
+}
+#container a:nth-child(2){
+    background-image: url(../assets/22.png);
+}
+#container a:nth-child(3){
+    background-image: url(../assets/33.png);
+}
+#container a:nth-child(4){
+    background-image: url(../assets/44.png);
+}
+#container a:nth-child(5){
+    background-image: url(../assets/55.png);
+}
+#container a:nth-child(6){
+    background-image: url(../assets/66.png);
+}
+#container a:first-child:hover{
+    background-image: url(../assets/1.png);
+}
+#container a:nth-child(2):hover{
+    background-image: url(../assets/2.png);
+}
+#container a:nth-child(3):hover{
+    background-image: url(../assets/3.png);
+}
+#container a:nth-child(4):hover{
+    background-image: url(../assets/4.png);
+}
+#container a:nth-child(5):hover{
+    background-image: url(../assets/5.png);
+}
+#container a:nth-child(6):hover{
+    background-image: url(../assets/6.png);
+}
+
